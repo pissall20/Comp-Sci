@@ -26,8 +26,7 @@ int greedy(float money)
         do
         {
             change = change - 25;
-            count++;
-            
+            count++;           
         }
         while(change >= 25);
     }
